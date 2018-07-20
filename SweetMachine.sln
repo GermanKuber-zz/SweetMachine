@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweetMachine", "SpecialCasePattern\SweetMachine.csproj", "{15DE5CAA-1C97-47BB-BEDC-09552D9E11D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SweetMachine.Test", "SpecialCasePattern.Test\SweetMachine.Test.csproj", "{29EA70C5-804F-44E6-AB90-763FAA68106A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15DE5CAA-1C97-47BB-BEDC-09552D9E11D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15DE5CAA-1C97-47BB-BEDC-09552D9E11D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15DE5CAA-1C97-47BB-BEDC-09552D9E11D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15DE5CAA-1C97-47BB-BEDC-09552D9E11D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29EA70C5-804F-44E6-AB90-763FAA68106A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29EA70C5-804F-44E6-AB90-763FAA68106A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29EA70C5-804F-44E6-AB90-763FAA68106A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29EA70C5-804F-44E6-AB90-763FAA68106A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D09A858C-5A4A-437C-AC92-594882ECF337}
+	EndGlobalSection
+EndGlobal
