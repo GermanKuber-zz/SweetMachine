@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SpecialCasePattern\SweetMachine.csproj" />
+    <ProjectReference Include="..\SweetMachine\SweetMachine.csproj" />
   </ItemGroup>
 
 </Project>

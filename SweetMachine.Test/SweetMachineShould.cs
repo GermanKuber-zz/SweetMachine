@@ -14,8 +14,7 @@ namespace SweetMachine.Test
         public SweetMachineShould()
         {
             _sut = new SweetMachine(_mockListOfCandies);
-            _sut.InsertMoney(5);
-
+            _sut.InsertMoney(5);  
         }
 
         [Fact]
@@ -71,7 +70,7 @@ namespace SweetMachine.Test
         public void Return_Multiple_Candy(decimal firstPrice, decimal secondPrice)
         {
             var mockCandy = new Mock<ICandy>();
-            mockCandy.Setup(x => x.Price).Returns(firstPrice); 
+            mockCandy.Setup(x => x.Price).Returns(firstPrice);
             var mockCandy2 = new Mock<ICandy>();
             mockCandy2.Setup(x => x.Price).Returns(secondPrice);
 
